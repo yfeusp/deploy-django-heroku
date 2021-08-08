@@ -1,1 +1,5 @@
+# Packages
 Django==3.2.6
+
+# Dev Packages
+flake8==3.9.2

@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 79
+max-complexity = 10
+ignore = F405, W503, F403
+exclude =
+    venv
+    .git,
+    compose,
+    *migrations*,
+    *.egg-info,
+    .nox,
+    initial_data,
+    .mypy_cache
